@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Antonio:wght@100..700&display=swap');
-
 body {
-    font-family: "Anton SC", sans-serif;
+    font-family: "Antonio", sans-serif;
+    font-optical-sizing: auto;
     font-style: normal;
 }
 
@@ -22,8 +21,13 @@ body {
     width: 10%;
 }
 
-#galeria  img{
+#galeria img {
     width: 100%;
+}
+
+.title_hero {
+    font-weight: 700;
+    -webkit-text-stroke: 1px rgb(207, 142, 2);
 }
 
 .sinopse {
@@ -54,6 +58,14 @@ body {
 #topo {
     background-image: url('./assets/background_hero.png');
     background-position: center;
+}
+
+#topo p {
+    text-shadow: 2px 2px 5px rgb(9, 4, 54);
+}
+
+#topo #heroLogo {
+    width: 50%;
 }
 
 footer {
