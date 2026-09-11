@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Antonio:wght@100..700&display=swap');
+
+body {
+    font-family: "Anton SC", sans-serif;
+    font-style: normal;
+}
+
+:root {
+    --cor-primaria: #2952e3;
+    --cor-primaria-escura: #1c3aa8;
+    --cor-fundo-claro: #f6f7fb;
+    --cor-fundo-escuro: #060d25ef;
+}
+
+.hero {
+    background-color: var(--cor-fundo-escuro);
+    color: #fff;
+    padding: 4rem 0;
+}
+
+#logo {
+    width: 10%;
+}
+
+#galeria  img{
+    width: 100%;
+}
+
+.sinopse {
+    text-align: center;
+}
+
+.hero .btn-primary {
+    background-color: var(--cor-primaria);
+    border-color: var(--cor-primaria);
+}
+
+.card-evento {
+    height: 100%;
+    border: none;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card-evento .card-img-top {
+    height: 170px;
+    object-fit: cover;
+}
+
+.secao-clara {
+    background-color: var(--cor-fundo-claro);
+}
+
+#topo {
+    background-image: url('./assets/background_hero.png');
+    background-position: center;
+}
+
+footer {
+    background-color: var(--cor-fundo-escuro);
+    color: #dfe3f0;
+}
+
+footer a {
+    color: #cfd6f5;
+}

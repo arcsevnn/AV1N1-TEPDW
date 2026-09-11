@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Clash Royale</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top" style="background-color: var(--cor-fundo-escuro)">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#topo">
+                <img src="https://cdn.supercell.com/supercell.com/221213073743/supercell.com/files/supercell-logo-white-transp.png"
+                    id="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#topo">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#info">Informações</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#devs">Devs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galeria</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header id="topo" class="hero text-center">
+        <div class="container">
+            <h1 class="display-5 mb-3">Clash Royale</h1>
+            <p class="lead mb-4 mx-auto" style="max-width: 600px">
+                Batalhas de cartas épicas em tempo real
+            </p>
+            <a href="#info" class="btn btn-primary btn-lg">Jogue agora</a>
+        </div>
+    </header>
+
+    <section class="container p-5 sinopse">
+        <h2>Sinopse</h2>
+        <p>Clash Royale é um jogo multijogador em tempo real com os Royales, seus personagens favoritos de Clash® e
+            muito mais. Colecione e aprimore dezenas de cartas com as tropas, feitiços e defesas de Clash of Clans que
+            você conhece e adora, além dos Royales: Príncipes, Cavaleiros, Bebês Dragões e muito mais. Derrube o Rei e
+            as Princesas inimigas de suas torres para derrotar seus oponentes e ganhar Troféus, Coroas e glória na
+            Arena.
+
+        </p>
+    </section>
+    <section id="info" class="py-5 secao-clara">
+        <div class="container">
+            <h2 class="mb-4">O que você vai encontrar:</h2>
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+                <div class="col">
+                    <div class="card card-evento">
+                        <img src="./assets/arena.png" class="card-img-top" alt="Imagem do evento 1" />
+                        <div class="card-body">
+                            <span class="badge bg-primary-subtle text-primary-emphasis mb-2"><i
+                                    class="bi bi-shield-slash"></i> </span>
+                            <h3 class="h5 card-title"> Multiplayer Frenético</h3>
+                            <p class="card-text">Enfrente outro jogador com estratégia e agilidade.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-evento">
+                        <img src="./assets/deck.png" class="card-img-top" alt="Imagem do evento 1" />
+                        <div class="card-body">
+                            <span class="badge bg-primary-subtle text-primary-emphasis mb-2"><i
+                                    class="bi bi-suit-spade"></i> </span>
+                            <h3 class="h5 card-title"> Estilo de jogo</h3>
+                            <p class="card-text">Jogue com decks variados e com infinitas combinações.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card card-evento">
+                        <img src="./assets/ranking.png" class="card-img-top" alt="Imagem do evento 1" />
+                        <div class="card-body">
+                            <span class="badge bg-primary-subtle text-primary-emphasis mb-2"><i
+                                    class="bi bi-award"></i></span>
+                            <h3 class="h5 card-title"> Sistema de ranking e guilda. </h3>
+                            <p class="card-text">Evolua e eleve seu nível em companhia.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="galeria" class="container p-5">
+        <div class="row">
+            <h2>Galeria</h2>
+        </div>
+        <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <div class="col-4">
+                <img src="./assets/galeria/image1.png" alt="">
+            </div>
+            <div class="col-4">
+                <img src="./assets/galeria/image2.png" alt="">
+            </div>
+            <div class="col-4">
+                <img src="./assets/galeria/image3.png" alt="">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <footer id="devs" class="py-4 mt-4">
+        <div class="container text-center">
+            <h5 class="text-white mb-2">Desenvolvedores</h5>
+            <p class="small mb-2">
+                <span>Vinícius</span>
+                <span class="mx-2">|</span>
+                <span>Emanuel</span>
+                <span class="mx-2">|</span>
+                <span>Igor</span>
+            </p>
+            <p class="small mb-0">&copy; 2026 Clash Royale.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
